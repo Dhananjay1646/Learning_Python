@@ -74,16 +74,22 @@ print("\n***********************************************************************
 
 # Let's take a look at the placeholders in our example. 
 
-
-    # The first placeholder "%2d" is used for the first component of our tuple, i.e. the integer 1. The number will be printed with 2 characters. As 1 consists only of one digits, the output is padded with 1 leading blanks.
-    # The second one "%8.2f" is a format description for a float number. Like other placeholders, it is introduced with the % character. This is followed by the total number of digits the string should contain. This number includes the decimal point and all the digits, i.e. before and after the decimal point.
-    # Our float number 05.333 has to be formatted with 5 characters. The decimal part of the number or the precision is set to 2, i.e. the number following the "." in our placeholder. Finally, the last character "f" of our placeholder stands for "float".
+	# The first placeholder "%2d" is used for the first component of our tuple, i.e. the integer 1. The number will be printed with 2 characters.
+	# As 1 consists only of one digits, the output is padded with 1 leading blanks.
+	# The second one "%8.2f" is a format description for a float number. Like other placeholders, it is introduced with the % character.
+	# This is followed by the total number of digits the string should contain. This number includes the decimal point and all the digits,
+	# i.e. before and after the decimal point.
+	# Our float number 05.333 has to be formatted with 5 characters. The decimal part of the number or the precision is set to 2,
+	# i.e. the number following the "." in our placeholder. Finally, the last character "f" of our placeholder stands for "float".
 
 
 ## Formatting output using format method :
 print("\n## Formatting output using format method :-")
 
-# The format() method was added in Python(2.6). Format method of strings requires more manual effort. User use {} to mark where a variable will be substituted and can provide detailed formatting directives, but user also needs to provide the information to be formatted. This method lets us concatenate elements within an output through positional formatting. For Example -
+# The format() method was added in Python(2.6). Format method of strings requires more manual effort. User use {} to mark where a variable
+# will be substituted and can provide detailed formatting directives, but user also needs to provide the information to be formatted.
+# This method lets us concatenate elements within an output through positional formatting.
+# For Example -
 
 # Code 1:-
 print("\n# Code 1:-\n")
@@ -98,7 +104,8 @@ print('{0} and {1}'.format('D', "D's"))
 
 print('{1} and {0}'.format('D', "D's")) 
 
-# The brackets and characters within them (called format fields) are replaced with the objects passed into the format() method. A number in the brackets can be used to refer to the position of the object passed into the format() method.
+# The brackets and characters within them (called format fields) are replaced with the objects passed into the format() method.
+# A number in the brackets can be used to refer to the position of the object passed into the format() method.
 
 
 # Code 2:-
@@ -146,7 +153,8 @@ print("\n***********************************************************************
 ## Formatting output using String method :-
 print("\n## Formatting output using String method :-")
 
-# In this output is formatted by using string slicing and concatenation operations. The string type has some methods that help in formatting a output in an fancier way. Some of the methods which help in formatting an output are str.ljust(), str.rjust(), str.centre()
+# In this output is formatted by using string slicing and concatenation operations. The string type has some methods that help in formatting
+# a output in an fancier way. Some of the methods which help in formatting an output are str.ljust(), str.rjust(), str.centre()
 
 # Python program to format a output using string() method
 
