@@ -13,14 +13,14 @@ print("### Operators ###\n")
 # like addition, subtraction, multiplication and division.
 print("# 1. Arithmetic operators: Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication and division.\n")
 
-# Operator 	Description 																	Syntax
-# 	+ 		Addition: adds two operands 													x + y
-# 	- 		Subtraction: subtracts two operands 											x - y
-# 	* 		Multiplication: multiplies two operands 										x * y
-# 	/ 		Division (float): divides the first operand by the second 						x / y
-# 	// 		Division (floor): divides the first operand by the second 						x // y
-# 	% 		Modulus: returns the remainder when first operand is divided by the second 		x % y
-# 	** 		Power : Returns first raised to power second 									x ** y
+# Operator 	Description 										Syntax
+# + 		Addition: adds two operands 								x + y
+# - 		Subtraction: subtracts two operands 							x - y
+# * 		Multiplication: multiplies two operands 						x * y
+# / 		Division (float): divides the first operand by the second 				x / y
+# // 		Division (floor): divides the first operand by the second 				x // y
+# % 		Modulus: returns the remainder when first operand is divided by the second 		x % y
+# ** 		Power : Returns first raised to power second 						x ** y
 
 # Examples of Arithmetic Operator 
 a = 6
@@ -62,13 +62,13 @@ print("\n***********************************************************************
 # True or False according to the condition.
 print("# 2. Relational Operators: Relational operators compares the values. It either returns True or False according to the condition.\n")
 
-# Operator 		Description 																					Syntax
-	# > 		Greater than: True if left operand is greater than the right 									x > y
-	# < 		Less than: True if left operand is less than the right 											x < y
-	# == 		Equal to: True if both operands are equal 														x == y
-	# != 		Not equal to - True if operands are not equal 													x != y
-	# >= 		Greater than or equal to: True if left operand is greater than or equal to the right 			x >= y
-	# <= 		Less than or equal to: True if left operand is less than or equal to the right 					x <= y
+# Operator 		Description 											Syntax
+# > 			Greater than: True if left operand is greater than the right 					x > y
+# < 			Less than: True if left operand is less than the right 						x < y
+# == 			Equal to: True if both operands are equal 							x == y
+# != 			Not equal to - True if operands are not equal 							x != y
+# >= 			Greater than or equal to: True if left operand is greater than or equal to the right 		x >= y
+# <= 			Less than or equal to: True if left operand is less than or equal to the right 			x <= y
 
 
 # Examples of Relational Operators 
@@ -98,10 +98,10 @@ print("\n***********************************************************************
 # 3. Logical operators: Logical operators perform Logical AND, Logical OR and Logical NOT operations.
 print("# 3. Logical operators: Logical operators perform Logical AND, Logical OR and Logical NOT operations.\n")
 
-# Operator 		Description 										Syntax
+# Operator 		Description 						Syntax
 # and		Logical AND: True if both the operands are true 		x and y
 # or		Logical OR: True if either of the operands is true 		x or y
-# not		Logical NOT: True if operand is false 					not x
+# not		Logical NOT: True if operand is false 				not x
 
 # Examples of Logical Operator 
 a = True
@@ -122,13 +122,13 @@ print("\n***********************************************************************
 # 4. Bitwise operators: Bitwise operators acts on bits and performs bit by bit operation.
 print("# 4. Bitwise operators: Bitwise operators acts on bits and performs bit by bit operation.\n")
 
-# Operator		Description				Syntax
-	# &			Bitwise AND 			x & y
-	# |			Bitwise OR 				x | y
-	# ~			Bitwise NOT 			~x
-	# ^			Bitwise XOR 			x ^ y
-	# >>		Bitwise right shift 	x>>
-	# <<		Bitwise left shift 		x<<
+# Operator		Description			Syntax
+# &			Bitwise AND 			x & y
+# |			Bitwise OR 			x | y
+# ~			Bitwise NOT 			~x
+# ^			Bitwise XOR 			x ^ y
+# >>			Bitwise right shift 		x>>
+# <<			Bitwise left shift 		x<<
 
 
 # Examples of Bitwise operators 
@@ -189,8 +189,9 @@ print("# 6. Identity Operators\n")
 # Identity operators are used to compare the objects, not if they are equal, but if they are actually
 # the same object, with the same memory location:
 
-# Operator		Description													Example
-# is			Returns True if both variables are the same object			x is y
+# Operator		Description							Example
+
+# is			Returns True if both variables are the same object		x is y
 # is not		Returns True if both variables are not the same object		x is not y
 
 x = ["apple", "banana"]
@@ -231,10 +232,10 @@ print("#7. Membership Operators\n")
 
 # Membership operators are used to test if a sequence is presented in an object:
 
-# Operator			Description																				Example
+# Operator		Description											Example
 
-# in				Returns True if a sequence with the specified value is present in the object			x in y
-# not in			Returns True if a sequence with the specified value is not present in the object		x not in y
+# in			Returns True if a sequence with the specified value is present in the object			x in y
+# not in		Returns True if a sequence with the specified value is not present in the object		x not in y
 
 x = ["apple", "banana"]
 
