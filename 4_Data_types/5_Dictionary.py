@@ -9,16 +9,22 @@ print("\n***********************************************************************
 ### Python Dictionary ###
 print("\n### Python Dictionary ###\n")
 
-# Dictionary in Python is an unordered collection of data values, used to store data values like a map, which unlike other Data Types that hold only single value as an element, Dictionary holds key:value pair. Key value is provided in the dictionary to make it more optimized.
+# Dictionary in Python is an unordered collection of data values, used to store data values like a map, which unlike other Data Types
+# that hold only single value as an element, Dictionary holds key:value pair. Key value is provided in the dictionary to make it more optimized.
 
 # Note - Keys in a dictionary doesn't allows Polymorphism.
 
-# In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
-# The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. Real life example of polymorphism: A person at the same time can have different characteristic. Like a man at the same time is a father, a husband, an employee.
+# In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types or the
+# use of a single symbol to represent multiple different types.
+# The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed
+# in more than one form. Real life example of polymorphism: A person at the same time can have different characteristic. Like a man at
+# the same time is a father, a husband, an employee.
 
 # Creating a Dictionary
 
-# In Python, a Dictionary can be created by placing sequence of elements within curly {} braces, separated by 'comma'. Dictionary holds a pair of values, one being the Key and the other corresponding pair element being its Key:value. Values in a dictionary can be of any datatype and can be duplicated, whereas keys can't be repeated and must be immutable.
+# In Python, a Dictionary can be created by placing sequence of elements within curly {} braces, separated by 'comma'. Dictionary holds
+# a pair of values, one being the Key and the other corresponding pair element being its Key:value. Values in a dictionary can be of any
+# datatype and can be duplicated, whereas keys can't be repeated and must be immutable.
 
 # Note - Dictionary keys are case sensitive, same name but different cases of Key will be treated distinctly.
 
@@ -59,7 +65,6 @@ Dict1 = dict([('Hi', 1), ('I', 2), ('am', 3), ('Dhe', 4)])
 print("\nDictionary with each item as a pair: ") 
 print(Dict1) 
 
-
 print("\n********************************************************************************************************************************")
 
 # Nested Dictionary:
@@ -71,13 +76,14 @@ Dict = {1: 'Dhe', 2: 'For',
 		3:{'A' : 'Welcome', 'B' : 'To', 'C' : 'Dhe'}}
 print(Dict) 
 
-
 print("\n********************************************************************************************************************************")
 
 # Adding elements to a Dictionary
 print("\n# Adding elements to a Dictionary:-\n")
 
-# In Python Dictionary, Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = 'Value'. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary.
+# In Python Dictionary, Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining
+# value along with the key e.g. Dict[Key] = 'Value'. Updating an existing value in a Dictionary can be done by using the built-in
+# update() method. Nested key values can also be added to an existing Dictionary.
 # Note - While adding a value, if the key value already exists, the value gets updated otherwise a new Key with the value is added to the Dictionary.
 
 # Creating an empty Dictionary 
@@ -107,7 +113,6 @@ Dict[5] = {'Nested' :{'1' : 'Life', '2' : 'Dhe'}}
 print("\nAdding a Nested Key: ") 
 print(Dict) 
 
-
 print("\n********************************************************************************************************************************")
 
 # Accessing elements from a Dictionary
@@ -128,7 +133,6 @@ print(Dict['name'])
 print("Accessing a element using key:") 
 print(Dict[1]) 
 
-
 print("\n********************************************************************************************************************************")
 
 print("\n# Accessing a element using get: \n")
@@ -142,7 +146,6 @@ Dict = {1: 'Dhe', 'name': 'For', 3: 'Dhananjay'}
 
 print("Dict.get(3):-\n", Dict.get(3)) 
 print("Dict.get('name'):-\n", Dict.get('name'))
-
 
 print("\n********************************************************************************************************************************")
 
@@ -160,7 +163,6 @@ print("\nDict:-\n", Dict)
 print("\nDict['Dict1']:-\n", Dict['Dict1']) 
 print("\nDict['Dict1'][1]:-\n", Dict['Dict1'][1])
 print("\nDict['Dict2']['Name']:-\n", Dict['Dict2']['Name']) 
-
 
 print("\n********************************************************************************************************************************")
 
@@ -190,7 +192,6 @@ del Dict['A'][2]
 print("\nDeleting a key from Nested Dictionary: ") 
 print("After \"del Dict['A'][2]:-\"\n", Dict) 
 
-
 print("\n********************************************************************************************************************************")
 
 # Using pop() method
@@ -205,7 +206,6 @@ print("Dict:-\n", Dict)
 pop_ele = Dict.pop(1) 
 print('\nDictionary after deletion by using \"Dict.pop(1)\":-' + str(Dict)) 
 print('Value associated to poped key is: ' + str(pop_ele)) 
-
 
 print("\n********************************************************************************************************************************")
 
@@ -233,7 +233,6 @@ print("\n# Using clear() method")
 # Creating a Dictionary 
 Dict = {1: 'Dhe', 'name': 'For', 3: 'Dhananjay'} 
 
-
 # Deleting entire Dictionary 
 Dict.clear() 
 print("\nDeleting Entire Dictionary with: \"Dict.clear()\":-") 
@@ -243,8 +242,10 @@ print("\n***********************************************************************
 
 print('''
 								Dictionary Methods
+								
 Methods								Description
-copy()							They copy() method returns a shallow copy of the dictionary.
+
+copy()						They copy() method returns a shallow copy of the dictionary.
 clear()						The clear() method removes all items from the dictionary.
 pop()						Removes and returns an element from a dictionary having the given key.
 popitem()					Removes the arbitrary key-value pair from the dictionary and returns it as tuple.
@@ -260,16 +261,19 @@ fromkeys()					Create a new dictionary with keys from seq and values set to valu
 type()						Returns the type of the passed variable.
 cmp()						Compares elements of both dict.
 ''')
-
 print("\n********************************************************************************************************************************")
 
 print('''
 # Note:- 
+
 # import pdb			# Python Debugging
+
 # Insert the following code at the location where you want to break into the debugger:
+
 # pdb.set_trace()
 
-# When the line above is executed, Python stops and waits for you to tell it what to do next. You’ll see a (Pdb) prompt. This means that you’re now paused in the interactive debugger and can enter a command.
+# When the line above is executed, Python stops and waits for you to tell it what to do next. You’ll see a (Pdb) prompt. This means that
+# you’re now paused in the interactive debugger and can enter a command.
 
 ''')
 
