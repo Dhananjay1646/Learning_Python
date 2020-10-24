@@ -78,12 +78,10 @@ print("# Using add() method\n")
 # tuples are immutable and hence Hashable.
 
 '''
-An object is said to be hashable if it has a hash value that remains the same during its lifetime. It has a __hash__() method and it can be compared to other objects. For this, it needs the __eq__() or __cmp__()method. If hashable objects are equal when compared, then they have same hash value.
-
+An object is said to be hashable if it has a hash value that remains the same during its lifetime. It has a __hash__() method and it can be
+compared to other objects. For this, it needs the __eq__() or __cmp__()method. If hashable objects are equal when compared, then they have same hash value.
 Being hashable renders an object usable as a dictionary key and a set member as these data structures use hash values internally.
-
 All immutable built-in objects in python are hashable. Mutable containers like lists and dictionaries are not hashable while immutable container tuple is hashable
-
 Objects which are instances of user-defined classes are hashable by default; they all compare unequal (except with themselves), and their hash value is derived from their id().
 '''
 
@@ -106,7 +104,6 @@ for i in range(1, 6):
 	set1.add(i) 
 print("\nSet after Addition of elements from 1-5: ") 
 print(set1) 
-
 
 print("\n********************************************************************************************************************************")
 
@@ -193,7 +190,6 @@ for i in range(1, 5):
 	set1.remove(i) 
 print("\nSet after Removing a range of elements: ") 
 print(set1) 
-
 
 # Elements can be removed from the Set by using built-in remove() function but a KeyError arises if element doesn’t exist in the set.
 # Note: If the item to remove does not exist, discard() will NOT raise an error.
